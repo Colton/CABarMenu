@@ -31,9 +31,10 @@ shown in the demo (just place it in your desired view):
     menu.alpha = 0.85f;
     menu.layer.cornerRadius = 15.0f;
     menu.clipsToBounds = YES;
-    ```
+```
+    
 
-To add the table view like in the demo, you can use:
+ To add the table view like in the demo, you can use:
 
 ``` objective-c
 UITableView *tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 40, 0, 416)];
@@ -44,7 +45,8 @@ UITableView *tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 40, 0,
     tableview.scrollIndicatorInsets = UIEdgeInsetsZero;
     tableview.contentInset = UIEdgeInsetsZero;
     [tableview setSeparatorInset:UIEdgeInsetsZero];
-    [menu addSubview:tableview];```
+    [menu addSubview:tableview];
+```
 
 Below are all of the customisation types you can use:
 
@@ -53,7 +55,7 @@ barTint
 backgroundColor
 alpha
 setTranslucent:
-cornerRadius - You must use 'menu.layer.cornerRadius' instead of 'menu.cornerRadius'
+cornerRadius - You must use menu.layer.cornerRadius instead of menu.cornerRadius.
 ```
 With those above, you should be able to customise it
 to your liking.
