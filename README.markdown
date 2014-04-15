@@ -19,6 +19,7 @@ Usage
 you can use: ```[menu showFromNavigationBar:navbarnamehere animated:YES];```
 And to hide the menu, ```[menu hideAnimated:YES];```.
 
+
 Customisation
 ==========
 
