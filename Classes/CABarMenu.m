@@ -6,6 +6,7 @@
 
 @implementation CABarMenu {
 	UINavigationBar *parentBar;
+    UIView *bg;
 }
 
 - (id)initWithFrame:(CGRect)frame
@@ -28,9 +29,9 @@
 
 //Final Frame Of The Animation
 - (CGRect)finalFrameForNavigationBar:(UINavigationBar *)bar {
-	CGRect rect = CGRectMake(37,
+	CGRect rect = CGRectMake(24.8,
 							 bar.frame.origin.y + 1,
-							250,
+							270,
 							 self.frame.size.height);
 	return rect;
 }
@@ -42,7 +43,7 @@
 }
 
 - (void)showFromNavigationBar:(UINavigationBar *)bar animated:(BOOL)animated {
-	
+    
 	parentBar = bar;
 	if (!parentBar) {
 		return;
@@ -66,6 +67,7 @@
 	};
 	
 	if (animated) {
+        
 		[UIView animateWithDuration:kAnimationDuration animations:animations completion:completion];
 	} else {
 		animations();
