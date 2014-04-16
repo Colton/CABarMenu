@@ -86,6 +86,7 @@ cell.selectedBackgroundView = selectionColor;
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
     }
     
+    
     cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
     cell.backgroundColor = [UIColor clearColor];
     cell.textLabel.textColor = [UIColor whiteColor];
