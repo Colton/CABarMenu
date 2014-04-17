@@ -23,7 +23,7 @@ And to hide the menu, ```[menu hideAnimated:YES];```.
 Customisation
 ==========
 
-You can customize the appearance of the bar in CABarMenu.m by adjusting the defaults in the 'init' method.
+You can customise the appearance of the bar in CABarMenu.m by adjusting the defaults in the 'init' method.
     
  To add the table view like in the demo, you can use this snippet in your viewDidLoad:
 
