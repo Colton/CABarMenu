@@ -23,6 +23,7 @@
 		028D623018FDFD8300FCE1B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 028D622E18FDFD8300FCE1B3 /* InfoPlist.strings */; };
 		028D623218FDFD8300FCE1B3 /* CABarMenu_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 028D623118FDFD8300FCE1B3 /* CABarMenu_DemoTests.m */; };
 		028D623E18FDFDB200FCE1B3 /* CABarMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 028D623C18FDFDB200FCE1B3 /* CABarMenu.m */; };
+		02A1E4F518FF83FD00A888A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A1E4F418FF83FD00A888A6 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		028D623B18FDFDB200FCE1B3 /* CABarMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CABarMenu.h; path = ../../Classes/CABarMenu.h; sourceTree = "<group>"; };
 		028D623C18FDFDB200FCE1B3 /* CABarMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CABarMenu.m; path = ../../Classes/CABarMenu.m; sourceTree = "<group>"; };
 		028D623D18FDFDB200FCE1B3 /* CABarMenuDrawer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CABarMenuDrawer-Prefix.pch"; path = "../../Classes/CABarMenuDrawer-Prefix.pch"; sourceTree = "<group>"; };
+		02A1E4F418FF83FD00A888A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A1E4F518FF83FD00A888A6 /* QuartzCore.framework in Frameworks */,
 				028D620918FDFD8300FCE1B3 /* CoreGraphics.framework in Frameworks */,
 				028D620B18FDFD8300FCE1B3 /* UIKit.framework in Frameworks */,
 				028D620718FDFD8300FCE1B3 /* Foundation.framework in Frameworks */,
@@ -107,6 +110,7 @@
 		028D620518FDFD8300FCE1B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				02A1E4F418FF83FD00A888A6 /* QuartzCore.framework */,
 				028D620618FDFD8300FCE1B3 /* Foundation.framework */,
 				028D620818FDFD8300FCE1B3 /* CoreGraphics.framework */,
 				028D620A18FDFD8300FCE1B3 /* UIKit.framework */,

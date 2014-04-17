@@ -20,8 +20,14 @@
 
 - (id)init
 {
-    //Menu Size
+    //Customise Bar Here
     self = [self initWithFrame:CGRectMake(0, 0, 0, 300)];
+    self.barTintColor = [UIColor colorWithRed:(40.0f/255.0f) green:(40/255.0f) blue:(40.0f/255.0f) alpha:1.0];
+    self.backgroundColor = [UIColor colorWithRed:(40.0/255.0f) green:(40.0f/255.0f) blue:(03.0f/255.0f) alpha:1.0];
+    self.alpha = 0.80f;
+    self.layer.cornerRadius = 15.0f;
+    self.clipsToBounds = YES;
+
     return self;
 }
 
@@ -43,6 +49,7 @@
 }
 
 - (void)showFromNavigationBar:(UINavigationBar *)bar animated:(BOOL)animated {
+
     
 	parentBar = bar;
 	if (!parentBar) {
@@ -50,6 +57,7 @@
 	}
 	
 	[bar.superview insertSubview:self belowSubview:bar];
+
 	
 	if (animated) {
 		self.frame = [self initialFrameForNavigationBar:bar];
@@ -68,6 +76,7 @@
 	
 	if (animated) {
         
+        
 		[UIView animateWithDuration:kAnimationDuration animations:animations completion:completion];
 	} else {
 		animations();
@@ -77,6 +86,7 @@
 }
 
 - (void)hideAnimated:(BOOL)animated {
+    
 	if (!parentBar) {
 		return;
 	}
