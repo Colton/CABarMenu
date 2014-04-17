@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0251145518FE2C890070A585 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0251145418FE2C890070A585 /* 5.png */; };
 		028D620718FDFD8300FCE1B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028D620618FDFD8300FCE1B3 /* Foundation.framework */; };
 		028D620918FDFD8300FCE1B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028D620818FDFD8300FCE1B3 /* CoreGraphics.framework */; };
 		028D620B18FDFD8300FCE1B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028D620A18FDFD8300FCE1B3 /* UIKit.framework */; };
@@ -37,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0251145418FE2C890070A585 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		028D620318FDFD8300FCE1B3 /* CABarMenu Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CABarMenu Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		028D620618FDFD8300FCE1B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		028D620818FDFD8300FCE1B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -137,7 +135,6 @@
 		028D620D18FDFD8300FCE1B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0251145418FE2C890070A585 /* 5.png */,
 				028D620E18FDFD8300FCE1B3 /* CABarMenu Demo-Info.plist */,
 				028D620F18FDFD8300FCE1B3 /* InfoPlist.strings */,
 				028D621218FDFD8300FCE1B3 /* main.m */,
@@ -251,7 +248,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				028D621F18FDFD8300FCE1B3 /* Images.xcassets in Resources */,
-				0251145518FE2C890070A585 /* 5.png in Resources */,
 				028D621118FDFD8300FCE1B3 /* InfoPlist.strings in Resources */,
 				028D621A18FDFD8300FCE1B3 /* Main.storyboard in Resources */,
 			);
