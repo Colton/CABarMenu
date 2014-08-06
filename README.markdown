@@ -25,7 +25,7 @@ Customisation
 
 You can customise the appearance of the bar in CABarMenu.m by adjusting the defaults in the 'init' method.
     
- To add the table view like in the demo, you can use this snippet in your viewDidLoad:
+ To add the table view like in the demo, you can use this snippet:
 
 ``` objective-c
 UITableView *tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 40, 0, 416)];
